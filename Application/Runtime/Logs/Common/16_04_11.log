@@ -1,0 +1,284 @@
+[ 2016-04-11T14:35:21+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-04-11T14:44:16+08:00 ] 127.0.0.1 /styles/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Styles
+
+[ 2016-04-11T14:44:16+08:00 ] 127.0.0.1 /styles/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:Styles
+
+[ 2016-04-11T14:44:16+08:00 ] 127.0.0.1 /images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-11T14:44:16+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T14:44:16+08:00 ] 127.0.0.1 /images/webLogo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-11T14:54:30+08:00 ] 127.0.0.1 /images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-11T14:54:30+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T14:54:30+08:00 ] 127.0.0.1 /images/webLogo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-11T14:55:53+08:00 ] 127.0.0.1 /Public/style/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-11T14:56:11+08:00 ] 127.0.0.1 /Public/style/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-11T14:56:53+08:00 ] 127.0.0.1 /Public/style/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-11T14:59:55+08:00 ] 127.0.0.1 /images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-11T14:59:55+08:00 ] 127.0.0.1 /images/webLogo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-11T14:59:55+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T14:59:55+08:00 ] 127.0.0.1 /Application/Admin/Public/images/icon/login_btn.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Application
+
+[ 2016-04-11T14:59:55+08:00 ] 127.0.0.1 /Application/Admin/Public/images/icon/user_icon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:Application
+
+[ 2016-04-11T15:00:06+08:00 ] 127.0.0.1 /doLogin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:DoLogin
+
+[ 2016-04-11T15:02:00+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T15:02:35+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T15:04:29+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T15:04:29+08:00 ] 127.0.0.1 /Application/Admin/Public/style/__IMG__/icon/login_btn.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Application
+
+[ 2016-04-11T15:04:29+08:00 ] 127.0.0.1 /Application/Admin/Public/style/__IMG__/icon/user_icon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Application
+
+[ 2016-04-11T15:06:32+08:00 ] 127.0.0.1 /Application/Admin/Public/img/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:Application
+
+[ 2016-04-11T15:06:32+08:00 ] 127.0.0.1 /Application/Admin/Public/img/webLogo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Application
+
+[ 2016-04-11T15:06:32+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T15:06:46+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T15:06:55+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T15:06:56+08:00 ] 127.0.0.1 /doLogin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:DoLogin
+
+[ 2016-04-11T15:08:54+08:00 ] 127.0.0.1 /getVerify.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载模块:GetVerify
+
+[ 2016-04-11T15:17:10+08:00 ] 127.0.0.1 /doLogin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载模块:DoLogin
+
+[ 2016-04-11T15:17:39+08:00 ] 127.0.0.1 /%7BU('Admin/index/login')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:{U('Admin
+
+[ 2016-04-11T16:14:46+08:00 ] 127.0.0.1 /styles/backstage.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载模块:Styles
+
+[ 2016-04-11T16:14:46+08:00 ] 127.0.0.1 /main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Main
+
+[ 2016-04-11T16:15:09+08:00 ] 127.0.0.1 /styles/backstage.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载模块:Styles
+
+[ 2016-04-11T16:15:09+08:00 ] 127.0.0.1 /main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+ERR: 无法加载模块:Main
+
+[ 2016-04-11T16:15:26+08:00 ] 127.0.0.1 /main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:Main
+
+[ 2016-04-11T16:15:33+08:00 ] 127.0.0.1 /addPro.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:AddPro
+
+[ 2016-04-11T16:16:16+08:00 ] 127.0.0.1 /main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Main
+
+[ 2016-04-11T16:31:19+08:00 ] 127.0.0.1 /main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Main
+
+[ 2016-04-11T16:33:04+08:00 ] 127.0.0.1 /main.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Main
+
+[ 2016-04-11T16:34:21+08:00 ] 127.0.0.1 /addPro.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:AddPro
+
+[ 2016-04-11T23:31:53+08:00 ] 127.0.0.1 /__STYLES__/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: 无法加载模块:__STYLES__
+
+[ 2016-04-11T23:31:53+08:00 ] 127.0.0.1 /__STYLES__/jquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:__STYLES__
+
+YLES__
+
+[ 2016-04-11T23:32:15+08:00 ] 127.0.0.1 /__STYLES__/css/admin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:__STYLES__
+
+[ 2016-04-11T23:32:15+08:00 ] 127.0.0.1 /__STYLES__/jquery-2.1.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载模块:__STYLES__
+
+[ 2016-04-11T23:32:15+08:00 ] 127.0.0.1 /__STYLES__/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:__STYLES__
+
