@@ -24,9 +24,9 @@ class IndexController extends Controller
 
             $this->display();
         } else {
-//        echo $_COOKIE['adminName'];
+//            print_r(cookie('adminName'));
 
-            $this->assign('adminId', $_COOKIE['adminName']);
+            $this->assign('adminName', cookie('adminName'));
             $this->display(admin);
         }
     }
@@ -43,12 +43,18 @@ class IndexController extends Controller
             if ($back) {
                 session_start();
                 if ($data['autoFlag']) {
-                    setcookie("adminId", $back['id'], time() + 7 * 24 * 3600);
-                    setcookie("adminName", $back['username'], time() + 7 * 24 * 3600);
+
+                    cookie('adminId',$back['id'],time() + 7 * 24 * 3600);
+                    cookie('adminName',$back['username'],time() + 7 * 24 * 3600);
+
+//                    print_r("22");
                 }
-                $_SESSION['adminName'] = $back['username'];
-                $_SESSION['adminId'] = $back['id'];
-                $this->success('登录成功');
+                session('adminName',$back['username']);
+
+                session('adminId',$back['id']);
+
+                $this->assign('adminName', session('adminName'));
+                $this->success('登录成功','index');
             } else {
                 $this->error('用户名或密码错误');
             }

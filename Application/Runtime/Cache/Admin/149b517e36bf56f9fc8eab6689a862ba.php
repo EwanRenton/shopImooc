@@ -5,10 +5,10 @@
     <title>-.-</title>
 
     <link rel="stylesheet" type="text/css" href="/Application/Admin/Public/js/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="__STYLES__/css/admin.css"/>
+
     <link rel="stylesheet" href="/Application/Admin/Public/style/backstage.css">
-    <script src="__STYLES__/jquery-2.1.4.min.js"></script>
-    <script src="__STYLES__/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/Application/Admin/Public/js/jquery-2.1.4.min.js"></script>
+    <script src="/Application/Admin/Public/js/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -18,8 +18,7 @@
     <h3 class="head_text fr">慕课电子商务后台管理系统</h3>
 </div>
 <div class="operation_user clearfix">
-    <!--   <div class="link fl"><a href="#">慕课</a><span>&gt;&gt;</span><a href="#">商品管理</a><span>&gt;&gt;</span>商品修改</div>-->
-    <div class="link fr">
+    <div class="link fr" >
         <b>欢迎您
             <?php echo ($adminId); ?>
         </b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="icon icon_i">首页</a><span></span><a href="#" class="icon icon_j">前进</a><span></span><a href="#" class="icon icon_t">后退</a><span></span><a href="#" class="icon icon_n">刷新</a><span></span><a href="<?php echo U('Admin/index/Logout');?>" class="icon icon_e">退出</a>
@@ -52,6 +51,9 @@
         <td><a class="btn btn-default" role="button" href="<?php echo U('Admin/editAdmin',array('id'=>$user['id']));?>">编辑</a> <a class="btn btn-default" role="button" href="<?php echo U('Admin/deleteAdmin',array('id'=>$user['id']));?>">删除</a></td>
     </tr><?php endforeach; endif; ?>
 </tbody>
+        <tfoot>
+        <th colspan="6"><?php echo ($page); ?></th>
+        </tfoot>
     </table>
 
             <!-- 嵌套网页结束 -->
@@ -74,8 +76,8 @@
                 <li>
                     <h3><span onclick="show('menu2','change2')" id="change2">+</span>分类管理</h3>
                     <dl id="menu2" style="display:none;">
-                        <dd><a href="addCate.php" target="mainFrame">添加分类</a></dd>
-                        <dd><a href="listCate.php" target="mainFrame">分类列表</a></dd>
+                        <dd><a href="<?php echo U('Admin/Admin/addCate');?>" >添加分类</a></dd>
+                        <dd><a href="<?php echo U('Admin/Admin/listCate');?>" >分类列表</a></dd>
                     </dl>
                 </li>
                 <li>

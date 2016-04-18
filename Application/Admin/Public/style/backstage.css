@@ -10,16 +10,20 @@ a:hover{text-decoration: underline;}
 .clearfix:after{ clear: both;}
 .clearfix{zoom:1;}
 .fl{float: left;}
-.fr{float: right;}
+.fr{
+    margin: 0;
+    padding: 0;
+    float: right;}
 
 
 /*头部*/
-.head{height: 60px; background-color: #2a2c2e; padding: 0 10px;}
+.head{height: 60px; background-color: #2a2c2e; padding: 0 10px;
+    width: 100%;}
 .logo{width: 100px; height: 100%; background: url(../images/logo_index.png) left top no-repeat;}
 .head_text{height: 100%; font:22px/60px "微软雅黑"; color: #FFF; }
 
 /*用户位置*/
-.operation_user{font:12px/2.5 "微软雅黑";padding: 0 10px; background-color: rgb(225, 224, 224);}
+.operation_user{font:12px/2.5 "微软雅黑";padding: 0 0px; background-color: rgb(225, 224, 224);}
 .link span{font-family: "宋体"; font-weight: 500; padding: 0 10px;}
 .link a{color: #000;}
 

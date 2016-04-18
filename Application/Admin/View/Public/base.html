@@ -2,13 +2,16 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>-.-</title>
+    <title>后台管理系统</title>
 
     <link rel="stylesheet" type="text/css" href="__JS__/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="__STYLES__/css/admin.css"/>
+    <link rel="stylesheet" href="__JS__/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css" />
+
     <link rel="stylesheet" href="__STYLE__/backstage.css">
-    <script src="__STYLES__/jquery-2.1.4.min.js"></script>
-    <script src="__STYLES__/bootstrap/js/bootstrap.min.js"></script>
+    <script src="__JS__/jquery-2.1.4.min.js"></script>
+    <script src="__JS__/bootstrap/js/bootstrap.min.js"></script>
+    <script src="__JS__/jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
+    <script src="__JS__/jquery-ui/js/jquery-ui-1.10.4.custom.min.js"></script>
 </head>
 
 <body>
@@ -18,11 +21,10 @@
     <h3 class="head_text fr">慕课电子商务后台管理系统</h3>
 </div>
 <div class="operation_user clearfix">
-    <!--   <div class="link fl"><a href="#">慕课</a><span>&gt;&gt;</span><a href="#">商品管理</a><span>&gt;&gt;</span>商品修改</div>-->
-    <div class="link fr">
+    <div class="link fr" >
         <b>欢迎您
-            {$adminId}
-        </b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="icon icon_i">首页</a><span></span><a href="#" class="icon icon_j">前进</a><span></span><a href="#" class="icon icon_t">后退</a><span></span><a href="#" class="icon icon_n">刷新</a><span></span><a href="{:U('Admin/index/Logout')}" class="icon icon_e">退出</a>
+            {$adminName}
+        </b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{:U('Admin/Index/Index')}" class="icon icon_i">首页</a><span></span><a href="#" class="icon icon_j">前进</a><span></span><a href="#" class="icon icon_t">后退</a><span></span><a href="#" class="icon icon_n">刷新</a><span></span><a href="{:U('Admin/Index/Logout')}" class="icon icon_e">退出</a>
     </div>
 </div>
 </block>
@@ -49,15 +51,15 @@
                 <li>
                     <h3><span onclick="show('menu1','change1')" id="change1">+</span>商品管理</h3>
                     <dl id="menu1" style="display:none;">
-                        <dd><a href="addPro.php" target="mainFrame">添加商品</a></dd>
-                        <dd><a href="listPro.php" target="mainFrame">商品列表</a></dd>
+                        <dd><a href="{:U('Admin/Admin/addPro')}" >添加商品</a></dd>
+                        <dd><a href="{:U('Admin/Admin/listPro')}" >商品列表</a></dd>
                     </dl>
                 </li>
                 <li>
                     <h3><span onclick="show('menu2','change2')" id="change2">+</span>分类管理</h3>
                     <dl id="menu2" style="display:none;">
-                        <dd><a href="addCate.php" target="mainFrame">添加分类</a></dd>
-                        <dd><a href="listCate.php" target="mainFrame">分类列表</a></dd>
+                        <dd><a href="{:U('Admin/Admin/addCate')}" >添加分类</a></dd>
+                        <dd><a href="{:U('Admin/Admin/listCate')}" >分类列表</a></dd>
                     </dl>
                 </li>
                 <li>
@@ -72,8 +74,8 @@
                 <li>
                     <h3><span onclick="show('menu4','change4')" id="change4">+</span>用户管理</h3>
                     <dl id="menu4" style="display:none;">
-                        <dd><a href="addUser.php" target="mainFrame">添加用户</a></dd>
-                        <dd><a href="listUser.php" target="mainFrame">用户列表</a></dd>
+                        <dd><a href="{:U('Admin/Admin/addUser')}" >添加用户</a></dd>
+                        <dd><a href="{:U('Admin/Admin/listUser')}" >用户列表</a></dd>
                     </dl>
                 </li>
                 <li>
@@ -87,7 +89,7 @@
                 <li>
                     <h3><span onclick="show('menu6','change6')" id="change6">+</span>商品图片管理</h3>
                     <dl id="menu6" style="display:none;">
-                        <dd><a href="listProImages.php" target="mainFrame">商品图片列表</a></dd>
+                        <dd><a href="{:U('Admin/Admin/listProImages')}" >商品图片列表</a></dd>
                     </dl>
                 </li>
             </ul>

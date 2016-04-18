@@ -37,21 +37,30 @@ class AdminModel extends Model
             return($this->getError());
         } else {
             // 验证通过 可以进行其他数据操作
+//            print_r($data);
             $this->add();
 
         }
     }
     public function listAdmin(){
 
-        return $this->select();
+        $page =I('p',1,'int');
+        $limit=5;
+        $data = $this->order('id DESC')->page($page.','.$limit)->select();
+        $count=$this->count();
+        $Page=new \Think\Page($count,$limit);
+        $show=$Page->show();
+        return array(
+            "list" =>$data,"page"=>$show);
     }
     public function editAdmin($id,$data){
         if (!$this->create($data)) {     // 对data数据进行验证
             return($this->getError());
         } else {
             // 验证通过 可以进行其他数据操作
-            $this->where("id='{$id}'")->save($data);
+            $this->where("id='{$id}'")->save();
 
         }
     }
+
 }
