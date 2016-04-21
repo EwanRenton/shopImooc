@@ -8,10 +8,11 @@
     <!--[if IE 6]>
     <script type="text/javascript" src="/Application/Home/Public/js/DD_belatedPNG_0.0.8a-min.js"></script>
     <script type="text/javascript" src="/Application/Home/Public/js/ie6Fixpng.js"></script>
-    <link type="text/css" rel="stylesheet" media="all" href="/Application/Home/Public/style/jquery.jqzoom.css"/>
-    <script src="scripts/jquery-1.6.js" type="text/javascript"></script>
-    <script src="scripts/jquery.jqzoom-core.js" type="text/javascript"></script>
     <![endif]-->
+    <link type="text/css" rel="stylesheet" media="all" href="/Application/Home/Public/style/jquery.jqzoom.css"/>
+    <script src="/Application/Home/Public/js/jquery-1.6.js" type="text/javascript"></script>
+    <script src="/Application/Home/Public/js/jquery.jqzoom-core.js" type="text/javascript"></script>
+
 </head>
 <body>
 <div class="headerBar">
@@ -152,7 +153,7 @@
         <div class="shopList_top clearfix">
             <?php if(is_array($cate["BigPro"])): foreach($cate["BigPro"] as $key=>$pro): ?><div class="shop_item">
                 <div class="shop_img">
-                    <a href="<?php echo U('Home/Index/proDetails',array('id'=>$pro.id));?>"><img src="/Public/Uploads/image_220/<?php echo ($pro['albumPath'][0]['albumpath']); ?>" alt=""></a>
+                    <a href="<?php echo U('Home/Index/proDetails',array('id'=>$pro['id']));?>"><img src="/Public/Uploads/image_220/<?php echo ($pro['albumPath'][0]['albumpath']); ?>" alt=""></a>
                 </div>
                 <h3><?php echo ($pro["pname"]); ?></h3>
                 <p><?php echo ($pro["iprice"]); ?></p>
@@ -161,7 +162,7 @@
         <div class="shopList_sm clearfix">
             <?php if(is_array($cate["smPro"])): foreach($cate["smPro"] as $key=>$pro): ?><div class="shopItem_sm">
                 <div class="shopItem_smImg">
-                    <a href="<?php echo U('Home/Index/proDetails',array('id'=>$pro.id));?>"><img src="/Public/Uploads/image_220/<?php echo ($pro['albumPath'][0]['albumpath']); ?>" alt=""></a>
+                    <a href="<?php echo U('Home/Index/proDetails',array('id'=>$pro['id']));?>"><img src="/Public/Uploads/image_220/<?php echo ($pro['albumPath'][0]['albumpath']); ?>" alt=""></a>
                 </div>
                 <div class="shopItem_text">
                     <p><?php echo ($pro["pname"]); ?></p>
